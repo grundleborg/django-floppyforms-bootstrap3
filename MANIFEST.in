@@ -1,2 +1,2 @@
 include *.md LICENSE
-recursive-include django-floppyforms-bootstrap3/templates *
+recursive-include floppyforms_bootstrap3/templates *
