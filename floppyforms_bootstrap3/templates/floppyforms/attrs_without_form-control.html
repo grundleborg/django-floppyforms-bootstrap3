@@ -1,0 +1,5 @@
+{% if "class" in attrs.keys %}
+{% for name, value in attrs.items %} {{ name }}{% if name == "class" %}=" {{ value }}"{% elif value != True %}="{{ value }}"{% endif %}{% endfor %}
+{% else %}
+{% for name, value in attrs.items %} {{ name }}{% if value != True %}="{{ value }}"{% endif %}{% endfor %}
+{% endif %}
