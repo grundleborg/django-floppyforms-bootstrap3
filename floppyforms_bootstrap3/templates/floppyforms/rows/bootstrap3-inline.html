@@ -7,5 +7,4 @@
         {% block hidden_fields %}{% for field in hidden_fields %}{{ field.as_hidden }}{% endfor %}{% endblock %}
     {% endblock %}
     {% endwith %}
-</div><!--- .form-group{% if field.errors %}.error{% endif %} -->
-{% endfor %}{% endblock %}
+</div><!--- .form-group{% if field.errors %}.error{% endif %} -->{% endfor %}{% endblock %}

@@ -14,11 +14,19 @@ What Works So Far?
 ==================
 
 * The Bootstrap 3 Horizontal Form layout http://getbootstrap.com/css/#forms-horizontal
+* The Bootstrap 3 Inline Form layout http://getbootstrap.com/css/#forms-inline
+
+Installation
+============
+
+There are multiple ways:
+
+1. Clone this git repo into your base Django project folder
+2. Install with pip ``git+https://github.com/BrnoPCmaniak/django-floppyforms-bootstrap3@master``
 
 How To Use
 ==========
 
-* Clone the git repo into the base directory of your Django Project, and add it to settings.py just like any other app.
 * Make sure this app is included in setings.py apps *before* floppy forms, as otherwise the template overriding doesn't seem to work properly.
 * Use floppyforms as normal.
 * Start with the example code below for how to use it.
