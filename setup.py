@@ -9,7 +9,7 @@ def read(*paths):
 
 setup(
     name='django-floppyforms-bootstrap3',
-    version='0.0.0',
+    version='0.0.1',
     packages=['floppyforms_bootstrap3',],
     description='A Plugin for Django Floppy Forms that provides Bootstrap 3 based form templates.',
     long_description=(read('README.md')),
